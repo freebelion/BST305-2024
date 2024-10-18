@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vektor", "Vektor\Vektor.csproj", "{F5F7CD31-7320-4B6F-9BAB-33ED6AC88D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vektor", "Vektor\Vektor.csproj", "{F5F7CD31-7320-4B6F-9BAB-33ED6AC88D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinifKutup1", "SinifKutup1\SinifKutup1.csproj", "{CDD7E89A-A14E-40D0-8BE8-C29846B3CC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoProgram", "GeoProgram\GeoProgram.csproj", "{EB2E121A-6E5E-4361-941B-F0E408AE2A75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F5F7CD31-7320-4B6F-9BAB-33ED6AC88D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5F7CD31-7320-4B6F-9BAB-33ED6AC88D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5F7CD31-7320-4B6F-9BAB-33ED6AC88D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD7E89A-A14E-40D0-8BE8-C29846B3CC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD7E89A-A14E-40D0-8BE8-C29846B3CC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD7E89A-A14E-40D0-8BE8-C29846B3CC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD7E89A-A14E-40D0-8BE8-C29846B3CC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2E121A-6E5E-4361-941B-F0E408AE2A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2E121A-6E5E-4361-941B-F0E408AE2A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2E121A-6E5E-4361-941B-F0E408AE2A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2E121A-6E5E-4361-941B-F0E408AE2A75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
