@@ -47,5 +47,19 @@ namespace SinifKutup1
             _genislik = x2 - x1;
             _yukseklik = y2 - y1;
         }
+
+        public double Alan()
+        {
+            return _genislik * _yukseklik;
+        }
+
+        public bool NoktaDahil(Nokta n)
+        {
+            double dx = Nokta.XFark(_solust, n);
+            double dy = Nokta.YFark(_solust, n);
+
+            return (dx > 0) && (dx < _genislik) &&
+                (dy > 0) && (dy < _yukseklik);
+        }
     }
 }

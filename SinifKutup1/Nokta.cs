@@ -45,16 +45,16 @@
         /// <param name="n1"></param>
         /// <param name="n2"></param>
         /// <returns></returns>
-        public static double DeltaX(Nokta n1, Nokta n2)
+        public static double XFark(Nokta n1, Nokta n2)
         { return n2._x - n1._x; }
 
-        public static double DeltaY(Nokta n1, Nokta n2)
+        public static double YFark(Nokta n1, Nokta n2)
         { return n2._y - n1._y; }
 
         public static double Uzaklik(Nokta n1, Nokta n2)
         {
-            double dx = DeltaX(n1, n2);
-            double dy = DeltaY(n1, n2);
+            double dx = XFark(n1, n2);
+            double dy = YFark(n1, n2);
             return Math.Sqrt(dx * dx + dy * dy);
         }
     }
